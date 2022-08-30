@@ -1,0 +1,169 @@
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.questionData{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formUi{
+    /* display: flex; */
+}
+.checkFormItem{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    margin: 10px;
+}
+.textFormItem{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.encounterDetails{
+    /* display: flex; */
+    flex-direction: column;
+    position: relative;
+}
+.formHeading{
+    text-align: center;
+    color:aqua;
+    border-bottom: 1px solid rgb(199, 191, 191);
+    font-weight: 200;
+}
+.formHeading h2{
+    font-weight: 500;
+}
+.symptoms{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    /* height:300px; */
+    /* background-color: aqua; */
+    border-bottom: 1px solid rgb(151, 149, 149);
+    
+
+    
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 12px;
+}
+.symptomsName {
+   /* color: aqua; */
+   text-align: left;
+   /* background-color: aqua; */
+   width: 80%;
+   margin-left: 220px;
+   padding-left: 0px;
+   font-size: 14px;
+}
+.symptomsName p{
+    font-weight: 600;
+    color: rgb(126, 126, 126);
+}
+
+.symptomsData{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 100%;
+    height: 32px;
+    
+}
+.symptomsCheckbox{
+    display: flex;
+    width: 50%;
+    /* background-color: blueviolet; */
+    margin-right: 80px;
+    /* border-bottom: 1px solid rgb(199, 191, 191); */
+}
+.checkBox {
+    /* background-color: bisque; */
+    padding-left:15px;
+    font-size: 14px;
+    position: relative;
+}
+.heading1{
+    position: relative;
+    left: -90px;
+    top: 150px;
+    font-size: 12px;
+}
+.heading2{
+    position: relative;
+    top: 120px;
+}
+.text{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 210px;
+  border-bottom: 1px solid rgb(151, 149, 149);
+
+}
+.textData{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+.inputData{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 10px;
+    font-size: 14px;
+   
+}
+.inputText{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 100px;
+    align-items: center;
+}
+.inputText input{
+    width: 100px;
+    border: none;
+    border: 1px solid rgb(194, 188, 188);
+    border-radius: 5px;
+    height: 20px;
+}
+.medicine{
+    border-bottom: 1px solid rgb(151, 149, 149);
+}
+
+/*---------making check box custom */
+
+/* .checkBoxClass{
+    opacity: 0;
+    position: absolute;
+}
+.checkBoxLabel{
+    position: relative;
+    left: 20px;
+}
+.checkBoxClass +.checkBoxLabel::before{
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+.checkBoxClass:checked + .checkBoxLabel::before{
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #bbb;
+} */
+
